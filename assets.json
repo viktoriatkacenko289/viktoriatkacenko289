@@ -1,0 +1,155 @@
+{
+  "style": "stylized 3D game render, glossy painted bronze and marble, thick clean shapes, cel-shaded rim highlights, warm gold key light",
+  "palette": {
+    "deepInk": "#0B0B0F",
+    "storm": "#21120B",
+    "panel": "#1E1A14",
+    "panelSink": "#15100A",
+    "gold": "#D4AF37",
+    "goldLight": "#F5D77A",
+    "amber": "#FACC15",
+    "ember": "#EA580C",
+    "sky": "#3B82F6",
+    "cream": "#FFF7E8"
+  },
+  "assets": [
+    {
+      "name": "bg_main",
+      "type": "bg",
+      "transparent": false,
+      "target": "Assets/Art/Textures/_BASE/Backgrounds/BG_main.png",
+      "prompt": "Vertical 19.5:9 portrait mobile game background, stylized 3D game render, glossy painted bronze and marble, thick clean shapes, cel-shaded rim highlights, warm gold key light. A marble terrace high on a storm-lit mountain, bronze laurel columns framing the left and right edges, dark amber storm clouds with one distant lightning arc, deep near-black brown sky #21120B, warm gold #D4AF37 rim light along the stone. The lower 45 percent is deliberately darker and low contrast so interface text reads over it. no text, no letters, no logo, no photo, no photorealism, no DSLR, no film grain, no lens flare, no bokeh, no depth of field, no UI elements, no characters."
+    },
+    {
+      "name": "bg_game",
+      "type": "bg",
+      "transparent": false,
+      "target": "Assets/Art/Textures/_BASE/Backgrounds/BG_game.png",
+      "prompt": "Vertical 19.5:9 portrait mobile game background, stylized 3D game render, glossy painted bronze and marble, thick clean shapes, cel-shaded rim highlights, warm gold key light. A dark bronze temple vault wall with faint engraved storm patterns, soft amber glow from above, deep shadow #15100A through the centre so a bright metal frame reads on top. Very low contrast, no focal subject. no text, no letters, no logo, no photo, no photorealism, no DSLR, no film grain, no lens flare, no bokeh, no depth of field, no UI elements, no characters."
+    },
+    {
+      "name": "sprite_sym_bolt",
+      "type": "sprite",
+      "transparent": true,
+      "facing": "front view, symmetric left-to-right, no directional axis",
+      "target": "Assets/Art/Sprites/sprite_sym_bolt.png",
+      "prompt": "One single forked Zeus lightning bolt, gold #D4AF37 core with a white-blue edge, STRICT ORIENTATION: front view, symmetric left-to-right, no directional axis, stylized 3D game render, glossy painted bronze and marble, thick clean shapes, cel-shaded rim highlights, warm gold key light, one single subject, centred, fully in frame, crisp silhouette, minimal ground shadow, no floor, no other objects, no text, no letters, no logo, no photo, no photorealism, no DSLR, no film grain, no lens flare, no bokeh, no depth of field."
+    },
+    {
+      "name": "sprite_sym_eagle",
+      "type": "sprite",
+      "transparent": true,
+      "facing": "side view, facing RIGHT",
+      "target": "Assets/Art/Sprites/sprite_sym_eagle.png",
+      "prompt": "One single golden eagle with spread wings seen from the side, STRICT ORIENTATION: side view, facing RIGHT, stylized 3D game render, glossy painted bronze and marble, thick clean shapes, cel-shaded rim highlights, warm gold key light, one single subject, centred, fully in frame, crisp silhouette, minimal ground shadow, no floor, no other objects, no text, no letters, no logo, no photo, no photorealism, no DSLR, no film grain, no lens flare, no bokeh, no depth of field."
+    },
+    {
+      "name": "sprite_sym_crown",
+      "type": "sprite",
+      "transparent": true,
+      "facing": "front view, symmetric left-to-right, no directional axis",
+      "target": "Assets/Art/Sprites/sprite_sym_crown.png",
+      "prompt": "One single bronze laurel crown, STRICT ORIENTATION: front view, symmetric left-to-right, no directional axis, stylized 3D game render, glossy painted bronze and marble, thick clean shapes, cel-shaded rim highlights, warm gold key light, one single subject, centred, fully in frame, crisp silhouette, minimal ground shadow, no floor, no other objects, no text, no letters, no logo, no photo, no photorealism, no DSLR, no film grain, no lens flare, no bokeh, no depth of field."
+    },
+    {
+      "name": "sprite_sym_amphora",
+      "type": "sprite",
+      "transparent": true,
+      "facing": "front view, symmetric left-to-right, no directional axis",
+      "target": "Assets/Art/Sprites/sprite_sym_amphora.png",
+      "prompt": "One single ruby-red Greek amphora with gold handles, STRICT ORIENTATION: front view, symmetric left-to-right, no directional axis, stylized 3D game render, glossy painted bronze and marble, thick clean shapes, cel-shaded rim highlights, warm gold key light, one single subject, centred, fully in frame, crisp silhouette, minimal ground shadow, no floor, no other objects, no text, no letters, no logo, no photo, no photorealism, no DSLR, no film grain, no lens flare, no bokeh, no depth of field."
+    },
+    {
+      "name": "sprite_sym_lyre",
+      "type": "sprite",
+      "transparent": true,
+      "facing": "front view, symmetric left-to-right, no directional axis",
+      "target": "Assets/Art/Sprites/sprite_sym_lyre.png",
+      "prompt": "One single silver Greek lyre, STRICT ORIENTATION: front view, symmetric left-to-right, no directional axis, stylized 3D game render, glossy painted bronze and marble, thick clean shapes, cel-shaded rim highlights, warm gold key light, one single subject, centred, fully in frame, crisp silhouette, minimal ground shadow, no floor, no other objects, no text, no letters, no logo, no photo, no photorealism, no DSLR, no film grain, no lens flare, no bokeh, no depth of field."
+    },
+    {
+      "name": "sprite_sym_helm",
+      "type": "sprite",
+      "transparent": true,
+      "facing": "side view, facing RIGHT",
+      "target": "Assets/Art/Sprites/sprite_sym_helm.png",
+      "prompt": "One single bronze Corinthian war helmet with a red crest, seen from the side, STRICT ORIENTATION: side view, facing RIGHT, stylized 3D game render, glossy painted bronze and marble, thick clean shapes, cel-shaded rim highlights, warm gold key light, one single subject, centred, fully in frame, crisp silhouette, minimal ground shadow, no floor, no other objects, no text, no letters, no logo, no photo, no photorealism, no DSLR, no film grain, no lens flare, no bokeh, no depth of field."
+    },
+    {
+      "name": "sprite_sym_column",
+      "type": "sprite",
+      "transparent": true,
+      "facing": "front view, symmetric left-to-right, no directional axis",
+      "target": "Assets/Art/Sprites/sprite_sym_column.png",
+      "prompt": "One single white marble Ionic column capital, STRICT ORIENTATION: front view, symmetric left-to-right, no directional axis, stylized 3D game render, glossy painted bronze and marble, thick clean shapes, cel-shaded rim highlights, warm gold key light, one single subject, centred, fully in frame, crisp silhouette, minimal ground shadow, no floor, no other objects, no text, no letters, no logo, no photo, no photorealism, no DSLR, no film grain, no lens flare, no bokeh, no depth of field."
+    },
+    {
+      "name": "sprite_sym_drachma",
+      "type": "sprite",
+      "transparent": true,
+      "facing": "front view, symmetric left-to-right, no directional axis",
+      "target": "Assets/Art/Sprites/sprite_sym_drachma.png",
+      "prompt": "One single gold drachma coin with an embossed lightning bolt and no lettering, STRICT ORIENTATION: front view, symmetric left-to-right, no directional axis, stylized 3D game render, glossy painted bronze and marble, thick clean shapes, cel-shaded rim highlights, warm gold key light, one single subject, centred, fully in frame, crisp silhouette, minimal ground shadow, no floor, no other objects, no text, no letters, no logo, no photo, no photorealism, no DSLR, no film grain, no lens flare, no bokeh, no depth of field."
+    },
+    {
+      "name": "sprite_sym_storm",
+      "type": "sprite",
+      "transparent": true,
+      "facing": "front view, symmetric left-to-right, no directional axis",
+      "target": "Assets/Art/Sprites/sprite_sym_storm.png",
+      "prompt": "One single dark storm cloud with a blue #3B82F6 lightning arc beneath it, STRICT ORIENTATION: front view, symmetric left-to-right, no directional axis, stylized 3D game render, glossy painted bronze and marble, thick clean shapes, cel-shaded rim highlights, warm gold key light, one single subject, centred, fully in frame, crisp silhouette, minimal ground shadow, no floor, no other objects, no text, no letters, no logo, no photo, no photorealism, no DSLR, no film grain, no lens flare, no bokeh, no depth of field."
+    },
+    {
+      "name": "sprite_icon_back",
+      "type": "sprite",
+      "transparent": true,
+      "facing": "side view, facing LEFT",
+      "target": "Assets/Art/Sprites/sprite_icon_back.png",
+      "prompt": "One single thick bronze chevron arrow, STRICT ORIENTATION: side view, facing LEFT, stylized 3D game render, glossy painted bronze and marble, thick clean shapes, cel-shaded rim highlights, warm gold key light, one single subject, centred, fully in frame, crisp silhouette, minimal ground shadow, no floor, no other objects, no text, no letters, no logo, no photo, no photorealism, no DSLR, no film grain, no lens flare, no bokeh, no depth of field."
+    },
+    {
+      "name": "sprite_icon_pause",
+      "type": "sprite",
+      "transparent": true,
+      "facing": "front view, symmetric left-to-right, no directional axis",
+      "target": "Assets/Art/Sprites/sprite_icon_pause.png",
+      "prompt": "One single pair of thick rounded bronze vertical bars side by side, STRICT ORIENTATION: front view, symmetric left-to-right, no directional axis, stylized 3D game render, glossy painted bronze and marble, thick clean shapes, cel-shaded rim highlights, warm gold key light, one single subject, centred, fully in frame, crisp silhouette, minimal ground shadow, no floor, no other objects, no text, no letters, no logo, no photo, no photorealism, no DSLR, no film grain, no lens flare, no bokeh, no depth of field."
+    },
+    {
+      "name": "sprite_icon_close",
+      "type": "sprite",
+      "transparent": true,
+      "facing": "front view, symmetric left-to-right, no directional axis",
+      "target": "Assets/Art/Sprites/sprite_icon_close.png",
+      "prompt": "One single thick bronze X cross, STRICT ORIENTATION: front view, symmetric left-to-right, no directional axis, stylized 3D game render, glossy painted bronze and marble, thick clean shapes, cel-shaded rim highlights, warm gold key light, one single subject, centred, fully in frame, crisp silhouette, minimal ground shadow, no floor, no other objects, no text, no letters, no logo, no photo, no photorealism, no DSLR, no film grain, no lens flare, no bokeh, no depth of field."
+    },
+    {
+      "name": "sprite_mark_bolt",
+      "type": "sprite",
+      "transparent": true,
+      "facing": "front view, symmetric left-to-right, no directional axis",
+      "target": "Assets/Art/Sprites/sprite_mark_bolt.png",
+      "prompt": "One single forked lightning bolt inside a closed bronze laurel ring, an abstract emblem, STRICT ORIENTATION: front view, symmetric left-to-right, no directional axis, stylized 3D game render, glossy painted bronze and marble, thick clean shapes, cel-shaded rim highlights, warm gold key light, one single subject, centred, fully in frame, crisp silhouette, minimal ground shadow, no floor, no other objects, no text, no letters, no logo, no photo, no photorealism, no DSLR, no film grain, no lens flare, no bokeh, no depth of field."
+    },
+    {
+      "name": "sprite_urn_bonus",
+      "type": "sprite",
+      "transparent": true,
+      "facing": "front view, symmetric left-to-right, no directional axis",
+      "target": "Assets/Art/Sprites/sprite_urn_bonus.png",
+      "prompt": "One single golden Greek urn overflowing with coins, STRICT ORIENTATION: front view, symmetric left-to-right, no directional axis, stylized 3D game render, glossy painted bronze and marble, thick clean shapes, cel-shaded rim highlights, warm gold key light, one single subject, centred, fully in frame, crisp silhouette, minimal ground shadow, no floor, no other objects, no text, no letters, no logo, no photo, no photorealism, no DSLR, no film grain, no lens flare, no bokeh, no depth of field."
+    },
+    {
+      "name": "sprite_frame_reel",
+      "type": "sprite",
+      "transparent": true,
+      "facing": "front view, symmetric left-to-right and top-to-bottom, no directional axis",
+      "target": "Assets/Art/Sprites/sprite_frame_reel.png",
+      "prompt": "An ornate rectangular bronze picture frame with laurel corner bosses and a COMPLETELY EMPTY FULLY TRANSPARENT CENTRE - only the border is drawn, the middle is hole, stylized 3D game render, glossy painted bronze and marble, thick clean shapes, cel-shaded rim highlights, warm gold key light, the frame fills the edges of the image, crisp silhouette, no floor, no other objects, no text, no letters, no logo, no photo, no photorealism, no DSLR, no film grain, no lens flare, no bokeh, no depth of field."
+    }
+  ],
+  "icon": {
+    "hero": "sprite_sym_bolt",
+    "prompt": "The glossy bronze-and-gold forked lightning bolt, centred and filling about 55 percent of the frame, over a crop of this game's own storm-brown temple vault with an amber glow from above. One hero object, stylized 3D game render, glossy painted bronze and marble, thick clean shapes, cel-shaded rim highlights, warm gold key light, no second subject, no scene clutter, no sparkle shapes, no star shapes, no bokeh dots, no outlined rings or halos, no text, no letters, no logo, no photo, no photorealism, no DSLR, no film grain, no lens flare, no bokeh, no depth of field."
+  }
+}
